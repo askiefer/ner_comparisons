@@ -1,4 +1,6 @@
-# ner_comparisons
+# NER Comparisons
+
+Comparisons of NER packages.
 
 NER model time is time to run a single row
 
