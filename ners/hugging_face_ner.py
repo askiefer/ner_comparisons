@@ -33,6 +33,6 @@ def extract_names_hugging_face(text):
 
 if __name__ == "__main__":
 
-    model = "Spacy"
+    model = "Hugging Face"
     metrics = get_utterance_scores(model, extract_names_hugging_face)
     calculate_metrics(model, metrics)

@@ -47,3 +47,41 @@ Metrics Flair
     recall: 0.9742446755819713
     accuracy: 0.9692042374969204
     f1_score: 0.9843613161516326
+
+
+#### New Metrics
+
+  Metrics Spacy:
+
+        full_speaker_name_person: 3837
+        partial_speaker_name_person: 143
+        full_speaker_name_nonperson: 62
+        partial_speaker_name_nonperson: 7
+        other_person_names: 3
+        no_person_names: 7
+        no_speaker_name_person_tokens: 1938
+        no_speaker_name_no_person_tokens: 3061
+        avg_time: 0.01
+
+Metrics HuggingFace:
+
+        full_speaker_name_person: 3075
+        partial_speaker_name_person: 736
+        full_speaker_name_nonperson: 2
+        partial_speaker_name_nonperson: 7
+        other_person_names: 229
+        no_person_names: 10
+        no_speaker_name_person_tokens: 1888
+        no_speaker_name_no_person_tokens: 3111
+        avg_time: 0.05
+
+ Metrics NLTK:
+        full_speaker_name_person: 3550
+        partial_speaker_name_person: 478
+        full_speaker_name_nonperson: 28
+        partial_speaker_name_nonperson: 1
+        other_person_names: 2
+        no_person_names: 0
+        no_speaker_name_person_tokens: 3904
+        no_speaker_name_no_person_tokens: 1095
+        avg_time: 0.0
